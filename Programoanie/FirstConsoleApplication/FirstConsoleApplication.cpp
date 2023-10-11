@@ -5,6 +5,7 @@
 
 int main()
 {
+
 	std::cout << "Hello World!\n";
 	std::cout << "Nazywam sie Dariusz Zaczkiewicz\n";
 	std::cout << "Nazywam sie Dariusz Zaczkiewicz\n";//ctrl kd
