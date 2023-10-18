@@ -9,7 +9,7 @@ int main()
 	std::cout << "Hello World!\n";
 	std::cout << "Nazywam sie Dariusz Zaczkiewicz\n";
 	std::cout << "Nazywam sie Dariusz Zaczkiewicz\n";//ctrl kd
-	std::cout << 'X';
+	std::cout << 'X'; //sta³a znakowa - musi byæ jeden znak
 	std::cout << "\n";
 	std::cout << '\n';
 	std::cout << 257 << "\n"; //sta³a liczbowa ca³kowita
