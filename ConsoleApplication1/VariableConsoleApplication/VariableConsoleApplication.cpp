@@ -14,12 +14,21 @@ void task1()
 //milimetry i kilometry.Wyœwietl wyniki.
 void task2()
 {
-	float lenghtInFrmoUser;
-		std:: << "Podaj d³ugoœæ w metrach \n";
-		std:: >> lenghtInFrmoUser;
+	float lenghtInMeterFromUser;
+	std::cout << "Podaj d³ugoœæ w metrach \n";
+	std::cin >> lenghtInMeterFromUser;
 
-		float lenghtInCentimeter;
-	lenghtInCentimeter = lenghtInMeterFromUser / 100;
+	float lenghtInCentimeter;
+	lenghtInCentimeter = lenghtInMeterFromUser * 100;
+
+	float lenghtInMilimeter = lenghtInCentimeter * 10;
+
+	float lenghtInKilometer = lenghtInMeterFromUser / 1000;
+
+	std::cout << "Metry:" << lenghtInMeterFromUser << "\n";
+	std::cout << "Centymetry:" << lenghtInCentimeter << "\n";
+	std::cout << "Milimetry:" << lenghtInMilimeter << "\n";
+	std::cout << "Kilometry:" << lenghtInKilometer << "\n";
 }
 
 
@@ -30,14 +39,15 @@ int main()
 }
 
 /*
-Algorytm - zbiór instrukcji realizuj¹cych postawione przed nim zadanie.
+Algorytm - skoñczony zbiór instrukcji realizuj¹cych postawione przed nim zadanie.
+Kolejnoœæ instrukcji w zbiorze jest okreœlona.
 Spozób zapisu:
 * w punktach
 * opis s³owny
 * jêzyk programowania lub pseudokod
 * zbiór rysunków
 * schemat blokowy
-  
+
 zmienna - jest to pewien obszar w pamiêci s³u¿¹cy do przechwytywania danych. Te dane mo¿na modyfikowaæ.
 Zmienna pozwasla przechowaæ tylko jedn¹ wartoœc w danym momencie czasu.
 
@@ -60,7 +70,7 @@ ling double     liczby rzeczywiste ze znakiem  12 bajtów
 Nazwa zmiennej - nazwa obszaru w pamiêci. Poprzes ta nazwê odwo³ujemy siê do tego obszaru.
 
 Wymagana kompilatora wzglêdem nazwy:
-* u¿ycie tylko dozwolonych znaków 
+* u¿ycie tylko dozwolonych znaków
 - alfabet angielski a-z oraz A-Z
 - cyfry arabskie 0-9
 - podkreœlenie (pod³oga)_
@@ -82,4 +92,5 @@ Wymagania programistów:
 
 
 
-*/            
+
+*/
